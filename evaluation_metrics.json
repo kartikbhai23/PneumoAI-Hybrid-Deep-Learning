@@ -1,0 +1,26 @@
+{
+  "checkpoint_sha256": "0d3f40cb7b85aff083a5e483dd037b27b3cd479d13b07dbbf8302e0763f0b500",
+  "evaluated_at": "2026-11-15T20:08:20.157161+00:00",
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "test_samples": 624,
+  "metrics": {
+    "accuracy": 0.8317307692307693,
+    "precision": 0.8907065326788783,
+    "recall": 0.7764957264957265,
+    "f1_score": 0.7967079849206473,
+    "confusion_matrix": [
+      [
+        130,
+        104
+      ],
+      [
+        1,
+        389
+      ]
+    ]
+  },
+  "note": "Evaluated on 624 images in dataset/chest_xray/test. Precision, recall and F1 are macro averages. Results verified against the checkpoint SHA-256."
+}

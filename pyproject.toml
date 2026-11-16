@@ -1,0 +1,17 @@
+[project]
+name = "pneumoai"
+version = "0.1.0"
+description = "Research-only pneumonia X-ray classifier with FastAPI and Grad-CAM"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "python-multipart>=0.0.9,<1",
+  "torch>=2.4,<3",
+  "torchvision>=0.19,<1",
+  "pillow>=10,<13",
+  "numpy>=1.26,<3",
+]
+
+[tool.uv]
+package = false
